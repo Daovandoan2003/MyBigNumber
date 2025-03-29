@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Add 2 numbers</title>
+    <title>Project Add 2 Numbers</title>
   </head>
   <body>
-    <script src="./main.js">
-      MyBigNumber
-    </script>
+    <h2>Cộng hai số lớn</h2>
+    <label for="num1">Số thứ nhất:</label>
+    <input type="text" id="num1" placeholder="Nhập số thứ nhất" />
+
+    <label for="num2">Số thứ hai:</label>
+    <input type="text" id="num2" placeholder="Nhập số thứ hai" />
+
+    <button onclick="calculateSum()">Tính tổng</button>
+
+    <h3>Kết quả: <span id="result"></span></h3>
+
+    <script src="./sumLargeNumbers.js"></script>
   </body>
 </html>

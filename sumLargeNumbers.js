@@ -41,6 +41,18 @@ function sumLargeNumbers(stn1, stn2) {
   // Đảo ngược lại để có kết quả đúng
   return result.reverse().join("");
 }
+function calculateSum() {
+  let num1 = document.getElementById("num1").value;
+  let num2 = document.getElementById("num2").value;
+
+  if (!num1 || !num2 || isNaN(num1) || isNaN(num2)) {
+    alert("Vui lòng nhập hai số hợp lệ!");
+    return;
+  }
+
+  let sum = sumLargeNumbers(num1, num2);
+  document.getElementById("result").innerText = sum;
+}
 
 // Test thử
 // let stn1 = Number(prompt("số đầu tiên"));
