@@ -55,6 +55,9 @@ Dự án này sử dụng Jest để kiểm thử đơn vị (Unit Testing).
 │── 📄 README.md
 
 📌 4️⃣ Thông Tin Tác Giả
+
 👨‍💻 Tác giả: [Đào Văn ĐoànĐoàn]
+
 📧 Email: daovandoan2k03@gmail.com
+
 🌐 Website: (https://daovandoan2003.github.io/MyBigNumber/)
