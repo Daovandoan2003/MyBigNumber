@@ -41,8 +41,8 @@ input {
 
 /* Style cho nút */
 button {
-  width: 150px;
-  padding: 15px 10px;
+  width: 100px;
+  padding: 5px 5px;
   font-size: 18px;
   background: rgba(4, 58, 37, 0.753);
   color: #3b82f6;
@@ -55,4 +55,18 @@ button {
 button:hover {
   background: #e68507;
   color: rgb(20, 235, 102);
+}
+/* Hộp hiển thị kết quả */
+#result-box {
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: rgb(32, 68, 53);
 }
