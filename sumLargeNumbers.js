@@ -59,4 +59,5 @@ function calculateSum() {
 // let stn2 = Number(prompt("số thứ hai"));
 
 // console.log("Kết quả:", sumLargeNumbers(stn1, stn2));
-module.exports = sumLargeNumbers;
+
+export default sumLargeNumbers;
