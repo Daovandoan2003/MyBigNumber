@@ -37,13 +37,21 @@ Dự án này sử dụng Jest để kiểm thử đơn vị (Unit Testing).
 
 📌 3️⃣ Cấu Trúc Dự Án
 📂 Dự án Cộng Hai Số Lớn
+
 │── 📄 index.html # Giao diện nhập số & hiển thị kết quả
+
 │── 📄 sumLargeNumbers.js # Thuật toán cộng hai số lớn
+
 │── 📄 package.json # Quản lý thư viện (npm)
+
 │── 📄 package-lock.json # Ghi lại phiên bản chính xác của các thư viện
+
 │── 📂 node_modules/ # (Tự động tạo sau khi chạy npm install)
+
 │── 📂 test/
+
 │ ├── 📄 sumLargeNumbers.test.js
+
 │── 📄 README.md
 
 📌 4️⃣ Thông Tin Tác Giả
