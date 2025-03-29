@@ -1,4 +1,4 @@
-const sumLargeNumbers = require("./sumLargeNumbers");
+const sumLargeNumbers = require("../sumLargeNumbers");
 
 describe("sumLargeNumbers", () => {
   test("Cộng hai số nhỏ", () => {
