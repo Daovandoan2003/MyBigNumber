@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cộng Hai Số Lớn</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <label for="num1">Số thứ nhất</label>
-    <input type="text" id="num1" placeholder="Nhập số thứ nhất" />
-    <label for="num2">Số thứ hai</label>
-    <input type="text" id="num2" placeholder="Nhập số thứ hai" />
-
-    <button id="calculateBtn">Cộng</button>
-    <p>Kết quả: <span id="result"></span></p>
+    <div id="container">
+      <div class="input-group">
+        <label for="num1">Số thứ nhất</label>
+        <input type="text" id="num1" placeholder="Nhập số thứ nhất" />
+      </div>
+      <div class="input-group">
+        <label for="num2">Số thứ hai</label>
+        <input type="text" id="num2" placeholder="Nhập số thứ hai" />
+      </div>
+      <button id="calculateBtn">Cộng</button>
+      <p>Kết quả: <span id="result"></span></p>
+    </div>
 
     <script type="module">
       import sumLargeNumbers from "./sumLargeNumbers.js";
