@@ -3,53 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cộng Hai Số Lớn</title>
+    <title>Cộng hai số lớn</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="container">
       <div class="input-group">
         <label for="num1">Số thứ nhất</label>
-        <input type="text" id="num1" placeholder="Nhập số thứ nhất" />
-      </div>
-      <div class="input-group">
-        <label for="num2">Số thứ hai</label>
-        <input type="text" id="num2" placeholder="Nhập số thứ hai" />
-      </div>
-      <button id="calculateBtn">Cộng</button>
-      <p>Kết quả:</p>
-      <div id="result-box">
-        <span id="result">0</span>
+        <input type="text" id="num1" placeholder="nhập số đầu tiên" />
+        <label for="num2">Số thứ 2</label>
+        <input type="text" id="num2" placeholder="nhập số thứ hai" />
+        <button onclick="congSo()">Tính Tổng</button>
+        <div id="ketQua">0</div>
       </div>
     </div>
-
-    <script type="module">
-      import sumLargeNumbers from "./sumLargeNumbers.js";
-
-      function calculateSum() {
-        let num1 = document.getElementById("num1").value;
-        let num2 = document.getElementById("num2").value;
-
-        if (!num1 || !num2 || isNaN(num1) || isNaN(num2)) {
-          alert("Vui lòng nhập hai số hợp lệ!");
-          return;
-        }
-
-        let sum = sumLargeNumbers(num1, num2);
-        document.getElementById("result").innerText = sum;
-      }
-
-      // Gán sự kiện cho nút "Cộng"
-      document
-        .getElementById("calculateBtn")
-        .addEventListener("click", calculateSum);
-
-      // Gán sự kiện "Enter" cho ô nhập số thứ hai
-      document.getElementById("num2").addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-          calculateSum();
-        }
-      });
-    </script>
+    <script src="./sum.js"></script>
   </body>
 </html>

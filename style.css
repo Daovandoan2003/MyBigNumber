@@ -1,10 +1,10 @@
-/* Đặt nền gradient từ xanh sang hồng */
+/* Đặt nền gradient từ xanh dương sang tím */
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #3b82f6, #ec4899);
+  background: linear-gradient(to right, #3b82f6, #9333ea);
   font-family: Arial, sans-serif;
   color: white;
   margin: 0;
@@ -21,7 +21,7 @@ body {
   text-align: center;
 }
 
-/* Căn chỉnh input để nằm ở 2/3 phía trên */
+/* Nhóm input để căn chỉnh */
 .input-group {
   display: flex;
   flex-direction: column;
@@ -32,8 +32,8 @@ body {
 /* Điều chỉnh kích thước input */
 input {
   width: 80%;
-  padding: 5px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 18px;
   border-radius: 5px;
   border: none;
   text-align: center;
@@ -41,11 +41,11 @@ input {
 
 /* Style cho nút */
 button {
-  width: 100px;
-  padding: 5px 5px;
+  width: 120px;
+  padding: 10px;
   font-size: 18px;
-  background: rgba(4, 58, 37, 0.753);
-  color: #3b82f6;
+  background: rgba(0, 102, 255, 0.8);
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -53,11 +53,12 @@ button {
 }
 
 button:hover {
-  background: #e68507;
-  color: rgb(20, 235, 102);
+  background: #ff9800;
+  color: white;
 }
+
 /* Hộp hiển thị kết quả */
-#result-box {
+#ketQua {
   width: 80%;
   margin: 10px auto;
   padding: 15px;
